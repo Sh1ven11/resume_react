@@ -1,0 +1,60 @@
+
+img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-top:20px;
+  overflow: hidden;
+  border: 5px solid white;
+  box-shadow: 0 0 5px white;
+
+}
+img:hover{
+  box-shadow: 0 0 15px white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+
+}
+.leftspace{
+  padding-left: 5.5rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+h2{
+  margin-top: 0;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.myLinks{
+  display: flex;
+  justify-content:center;
+  gap: 50px;
+}
+.logo{
+  margin-top:20px;
+}
+.no-flex{
+  display: block; /* or inline, depending on your needs */
+  width: 100%
+}
+body {
+  background-color: #0f0f0f;
+  color: #fefefe;
+}
+.right-text {
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #fefefe;
+
+}
